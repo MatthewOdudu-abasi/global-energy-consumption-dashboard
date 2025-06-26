@@ -1,121 +1,89 @@
-# Global Energy Consumption Dashboard (Power BI Project)
+#  Global Energy Consumption Analysis Dashboard
 
-**Author:** Matthew Odudu-Abasi  
-**Role:** Data Analyst | Power BI Developer | Energy Insights Explorer
+![Screenshot 2025-06-26 011531](https://github.com/user-attachments/assets/2ebd1db9-0e63-4196-a278-360aa63b3f25)
 
----
 
-## Project Overview
 
-This Power BI project analyzes global energy consumption patterns by country, region, energy type, and time. The goal is to visually explore how different nations consume energy, how energy sources are distributed, and what these patterns reveal about sustainability, development, and policy effectiveness.
+## 📘 Project Description
 
-By leveraging clean, structured data and interactive visuals, the dashboard empowers decision-makers, researchers, and environmental analysts to gain meaningful insights into the global energy landscape.
+This Power BI dashboard provides an in-depth analysis of energy consumption patterns across countries, energy sources, and per capita usage. Built for sustainability researchers, energy analysts, and policymakers, it highlights the distribution and behavior of global energy usage to support data-informed decisions in infrastructure, climate policy, and resource allocation.
 
 ---
 
-## Purpose of the Project
+##  Problem Statement
 
-The purpose of this project is to identify energy usage patterns across the globe and understand the distribution and evolution of energy sources — including fossil fuels, renewables, and nuclear energy. This analysis supports informed decisions in sustainability strategy, energy policy, and global development planning.
-
----
-
-## Dataset Details
-
-- **Fields:** Country, Region, Year, Energy Source, Energy Consumption (TWh), Population (optional), Per Capita Use
-- **Source:** Kaggle
-- **Format:** Cleaned Excel file, loaded into Power BI
-- **Time Frame:** Multi-year global records
+Despite the global urgency surrounding climate change and sustainability, many regions still lack accessible, transparent insights into how energy is consumed across sectors and demographics. This project addresses that gap by visualizing comprehensive global energy data, enabling nuanced understanding of national consumption behavior, source dependency, and the relationship between economic development and energy demand.
 
 ---
 
-## Data Cleaning Process
+## 🛠️ Tools Used
 
-The dataset was first cleaned using Microsoft Excel to ensure accuracy and consistency:
-
-- Removed rows with missing or null values in critical fields like Country, Year, or Energy Type.
-- Standardized column names and formats for readability and compatibility with Power BI.
-- Reformatted numerical fields (especially energy values) to proper number types.
-- Merged similar energy sources under broader categories, such as combining “Bioenergy” and “Other Renewables” into “Renewables”.
-- Created derived metrics, including:
-  - Total Energy Use per Capita
-  - Year-on-Year Growth Rate (%)
-
-These steps made the dataset dashboard-ready for analysis and visualization.
+- **Microsoft Excel** – Data cleaning, transformation, and derived metric calculations  
+- **Microsoft Power BI** – Interactive dashboard modeling, KPI visualizations, and analytical storytelling  
 
 ---
 
-## Pre-Analysis
+## 🔁 Summary of Process
 
-- Which countries consume the most total energy?
-- What is the global share of fossil fuels, renewables, and nuclear energy?
-- Which regions have shifted most toward renewable energy sources?
-- How has global energy use changed over the years?
-- Which countries have the highest and lowest energy use per capita?
-- How does energy usage relate to development, geography, or industrialization?
+1. **Data Preparation**:
+   - Removed incomplete or blank records in Country, Year, and Energy Source fields
+   - Converted numeric data from string formats to appropriate numeric types
+   - Unified categories for renewable sources and fossil fuels under broader groupings
+   - Added calculated fields: Per Capita Energy Use, Household Energy Use, and Year-on-Year Growth
 
----
-
-## Tools Used
-
-- **Excel** – For data cleaning, column restructuring, and formula-based metrics
-- **Power BI** – For interactive dashboard design, visuals, and filtering
-- **GitHub** – For documentation and version control
+2. **Dashboard Development**:
+   - Designed modular visuals to show national and comparative metrics
+   - Built slicers for Year, Energy Source, and Country to enable custom exploration
+   - Used card KPIs and multi-layered graphs to simplify consumption insights
 
 ---
 
-## Key Insights
+## 📊 Key Insights
 
-- China, the United States, and India are the top energy consumers globally.
-- Over 75% of total energy consumption is still driven by fossil fuels.
-- Countries like Germany, Sweden, and Denmark are leading the transition to renewables.
-- Per capita energy use is highest in developed nations like Qatar, Iceland, and the U.S.
-- Developed countries show a flattening energy demand trend, while emerging economies show rapid growth.
+- **Top Energy Consuming Countries**:  
+  United States ranks highest, followed by United Kingdom and Japan. Brazil stands out with large household energy use relative to peers.
 
----
+- **Household Energy Demand**:  
+  Brazil and India show significantly higher residential energy loads, requiring attention for domestic energy reform.
 
-## Observations
+- **Per Capita Energy Use**:  
+  India, Germany, and Japan lead in energy consumed per person—indicating intense industrial and commercial usage.
 
-- Developed countries are gradually stabilizing energy usage through efficiency and advanced technologies.
-- Emerging economies are still increasing demand, especially in industrial sectors.
-- Countries with supportive renewable policies show clear upward trends in clean energy adoption.
-- There are stark disparities between nations in both total and per capita energy use.
-- Heavy dependence on single-source energy (especially coal) remains a challenge in several regions.
+- **Global Fuel Mix**:  
+  Fossil fuels remain dominant, though renewable sources are growing gradually across several economies.
 
----
-
-## Recommendations
-
-Developing countries should be supported with funding, infrastructure, and technology access to help scale renewable energy adoption. This can be achieved through international partnerships and policy incentives that make clean energy investment more accessible.
-
-Countries with high per capita energy consumption should double down on energy efficiency strategies. This includes strengthening building energy codes, promoting smart grid investments, and encouraging lower-carbon lifestyles in residential and industrial sectors.
-
-Governments relying heavily on fossil fuels should be encouraged to diversify their energy portfolios. Introducing balanced energy planning that includes solar, wind, hydro, and nuclear can reduce economic and environmental risks tied to single-source dependency.
-
-There is a need for stronger global coordination in energy data transparency. Countries should adopt real-time energy reporting frameworks that help track energy use and transition progress, making global comparisons more actionable.
-
-Public education on energy responsibility should be a priority. Citizens in both developed and developing countries need better awareness of the long-term benefits of energy conservation and the global impact of unsustainable consumption.
+- **Trend Over Time**:  
+  Fossil fuel usage fluctuates slightly but remains high overall. Renewables show positive upward momentum, albeit unevenly distributed across countries.
 
 ---
 
-## Dashboard Features
+## ✅ Recommendations
 
-- Bar charts comparing total energy consumption by country
-- Line graphs showing multi-year consumption trends
-- Pie charts and donut visuals for energy type distribution
-- Per capita energy usage comparisons by country
-- Filters to select Year, Country, Region, and Energy Type
+- Promote residential energy efficiency programs in countries with high domestic energy demand, especially Brazil and India.
+- Accelerate renewable energy investments and industrial electrification in countries like the US, Japan, and Germany.
+- Develop policy and financial tools to help countries diversify their energy mix beyond fossil fuel dependency.
+- Encourage nations to deploy public-facing energy dashboards to monitor clean energy adoption and engage stakeholders.
+- Support per capita consumption reduction in developed economies through behavioral awareness and technology-driven usage tracking.
 
-![Screenshot 2025-06-26 011531](https://github.com/user-attachments/assets/0de62fd3-a548-43c0-862a-6ccf9f2a7f14)
+---
 
+## 💡 Skills Demonstrated
 
+- Data Wrangling (Excel)  
+- KPI Modeling and Metrics Visualization  
+- Sustainability Analytics  
+- Interactive Dashboard Design (Power BI)  
+- Insight Translation into Policy Recommendations  
 
+---
 
-##  Contact
-
-For collaborations, feedback, or dashboard walkthroughs:
+## 👤 Author
 
 **Matthew Odudu-Abasi**  
-🔗 [LinkedIn] https://www.linkedin.com/in/odudu-abasi-matthew-236a04292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app • 📧 [Email] Matthewoduduabasi@gmail.com • 🌐 [Portfolio] https://www.datascienceportfol.io/matthewoduduabasi
+📧 Email: matthewoduduabasi@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/matthewoduduabasi)  
+📰 Medium: [@matthewoduduabasi](https://medium.com/@matthewoduduabasi)
+
 
 
 
